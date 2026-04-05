@@ -1,0 +1,77 @@
+
+Code extentions
+===============
+Live preview
+Prettier
+vscode-icons
+
+Internet
+===============
+- Not cloud
+- Long peice of wire - connecting computers 
+- Some comps need to be online all the time - serve you
+
+Client -> ISP -> DNS server ->  
+    nslookup.io
+Under Sea Cables - connecting continents
+    submarinecablemap.com
+
+
+How Websites Actually Work
+===============
+Internet - wire connecting computers
+DNS - servers
+Code files:
+    HTML - content on the web - text, images
+    CSS - styling the website
+    JS - Allow website to do things - interactible website 
+
+Get The most
+===============
+Consider App Brewery
+Practice is mastery
+Use google and stack overflow
+Struggling is good - Can resolve good problems 
+
+Help when stuck
+===============
+Expection vs Reality
+Serach on google and stack overflow
+Re-Watch 
+Check the code aginst the trainer
+Check the Q & A
+    What you expected
+    What happened
+    Screenshot of the code
+    Debug console 
+
+What is HTML
+===============
+All the browsers take the diff files and render to a website 
+Need the 3 HTMl, CSS and JS
+HTML - content and structure of the content
+    HyperText - Texts that contains links to other texts 
+    Markup Language - marking the website parts
+        Using tags to markup texts
+
+How to download the course Resources
+===============
+Pick the .zip and extract the contents
+
+HTML Heading Elements   
+===============
+Starts with opening tag <h1>
+Ends with closing tag </h1> 
+HTML - 
+    Tag <Tag>
+    Element <Tag>Content</Tag>
+
+we have <h1> to <h6>
+Don't have more than one h1
+Dont skip level 
+More on this elements on mdn - mozilla developer network 
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements
+
+
+HTML Paragraph Elements   
+===============
