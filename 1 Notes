@@ -85,3 +85,35 @@ Void elements
 Assignment
 A website to keep track of all the favourite movies wathced 
 rogerebert.com
+
+CSS Selector
+
+Element Selector
+h1{
+
+}
+
+Class Selector
+.class{
+
+}
+
+ID Selector
+#{
+
+}
+
+Attribute Selector
+p[src]{
+
+}
+
+Attribute Selector 2
+p[draggable="true"]{
+
+}
+
+Universal Selector
+*{
+    
+}
