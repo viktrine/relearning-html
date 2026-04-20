@@ -145,3 +145,17 @@ rem is the recommended
 
 font-familiy: fonts.google.com
 text-align: 
+
+Box model
+===============
+Margin, padding and border
+
+height
+width: 10pxx, 100%
+border 10px solid black
+border-top: 0px;
+border-witdh: top right bottom left
+border-witdh: top/bottom right
+padding 
+margin
+div to group the element together 
