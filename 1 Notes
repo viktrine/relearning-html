@@ -115,5 +115,21 @@ p[draggable="true"]{
 
 Universal Selector
 *{
-    
+
 }
+
+
+Color Properties
+===================
+html {
+    background-color: red
+}
+
+h1{
+    color: red
+}
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/named-color
+
+https://colorhunt.co/
+
