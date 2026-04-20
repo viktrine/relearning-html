@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Size</title>
+
+    <style>
+        #pixel {
+            font-size: 20px;
+        }
+
+        #point {
+            font-size: 20pt;
+        }
+
+        #em {
+            font-size: 1.25em;
+        }
+
+        #rem {
+            font-size: 1.25rem;
+        }
+
+        footer {
+            font-size: 16px;
+            font-weight: bolder;
+        }
+
+        html {
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <p id="pixel">1 Pixel is 1/96 of an inch</p>
+    <p id="point">1 Point is 1/72 of an inch</p>
+
+    <footer>
+        <p id="em">1 em is 100% of the parent element's font size</p>
+        <p id="rem">1 rem is 100% of the root element's font size</p>
+    </footer>
+</body>
+</html>

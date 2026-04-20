@@ -133,3 +133,15 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/named-color
 
 https://colorhunt.co/
 
+
+Font Size
+1px - 1/96th inch
+px - pixel - 1/96th inch - 0.26mm
+pt - point - 1/72th inch - 0.35mm
+em -  100% of parent - 
+rem - 100% of root
+
+rem is the recommended
+
+font-familiy: fonts.google.com
+text-align: 
