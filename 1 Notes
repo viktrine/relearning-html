@@ -159,3 +159,83 @@ border-witdh: top/bottom right
 padding 
 margin
 div to group the element together 
+
+
+Cascading Style Sheet 
+=====================
+1css 
+Most important is what the user sees 
+
+<ol>
+li
+</ol>
+
+Position
+    li{
+        color: red;
+        color: blue;
+    }
+
+    The lower own the file the more important it is
+
+Specificity
+    Specific selector is
+    <li id="" class="" draggable>
+    li{}
+    .class{}
+    li[draggable]
+    #id
+
+Type
+    external <link>
+    internal <style>
+    inline style=""
+
+Importance
+    color: red;
+    color: green !important; 
+
+
+Combining CSS Selectors
+.inner-box p{
+
+}
+
+All selectors
+selector, selector{
+    
+}
+
+child of another 
+parent > child{
+
+}
+
+one generation deep
+
+Descendat of left 
+selector selector { 
+
+}
+
+Chaining selector - where all selectors are true
+selectorselector{
+
+}
+
+
+CSS Positioning
+================
+Static
+    HTML default
+
+Relative 
+    Relative to its default position
+    Relative to its supposed position
+
+Absolute
+    Relative to the nearest positioned ancestor or top left corner of webpage
+    Z-Index - which on top of which 
+
+Fixed
+    Relative to top left corner of the browser window
