@@ -226,8 +226,13 @@ selectorselector{
 
 CSS Positioning
 ================
+https://appbrewery.github.io/css-positioning
+
+
 Static
     HTML default
+    Flows as in the html 
+
 
 Relative 
     Relative to its default position
@@ -239,3 +244,9 @@ Absolute
 
 Fixed
     Relative to top left corner of the browser window
+
+
+CSS Flag
+========
+pattle.github.io/simpsons-in-css
+http://lascarid.es/fussyflags/
