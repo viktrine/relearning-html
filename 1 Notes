@@ -255,3 +255,8 @@ CSS Display
 ============
 p 
 Span - middle of another element 
+display: inline same line 
+block - full width block 
+Harry Potter
+inline-block 
+none - all elements disapper
