@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float</title>
+    <style>
+        div {
+            width: 40%;
+            display: inline-block;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+
+        .cat {
+            background-color: lightblue;
+        }
+        .dog {
+            background-color: lightgreen;
+        }
+
+        footer {
+            text-align: center;
+            clear: both;
+        }
+
+        .cat  {
+            float: left;
+        }
+        .dog  {
+            float: right;
+        }
+
+        .cat > img {
+            float: left;
+        }
+
+        .dog > img {
+            float: left;
+        }
+        p {
+            font-size: 2rem;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="cat">
+      <h2>CatCSS</h2>
+  
+      <img src="./images/cat.jpg" alt="A picture of a cat" class="cat-image" />
+      <p class="first-paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate
+        cupiditate fuga magni quos cumque, laudantium alias harum aut reiciendis
+        quisquam, maiores non at eius nostrum vero doloribus delectus! Labore.
+      </p>
+    </div>
+  
+    <div class="dog">
+      <h2>DogCSS</h2>
+      <img src="./images/dog.jpg" alt="A picture of a dog" class="dog-image" />
+      <p class="second-paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate
+        cupiditate fuga magni quos cumque, laudantium alias harum aut reiciendis
+        quisquam, maiores non at eius nostrum vero doloribus delectus! Labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate
+        cupiditate fuga magni quos cumque, laudantium alias harum aut reiciendis
+        quisquam, maiores non at eius nostrum vero doloribus delectus! Labore.
+      </p>
+    </div>
+  
+    <footer>
+      <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+  </body>

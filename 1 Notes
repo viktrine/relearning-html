@@ -260,3 +260,10 @@ block - full width block
 Harry Potter
 inline-block 
 none - all elements disapper
+
+CSS Float
+=========
+Wrap text around elements
+float: right, left
+
+footer: clear: left, right, both
