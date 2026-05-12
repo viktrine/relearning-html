@@ -270,3 +270,86 @@ footer: clear: left, right, both
 
 
 Responsive Websites
+===================
+Web to look good in all displays
+    - Desktops
+    - Laptops
+    - IPads
+    - Mobile phones 
+
+    Menu / navigation 
+    Search 
+
+Media Queries 
+CSS Grid
+CSS Flexbox
+External Frameworks  - bootstrap
+
+Media Query
+@media (maz-width: 600){
+    /** CSS for screens below or equal to 600px wide **/
+}
+
+CSS Grid
+========
+class container
+first card
+card 
+
+display: grid 
+grid-template-columns: 1fr 1fr; ||
+grid-template-rows: 100px 200px 200px; =
+gap: 30px
+grid-column: span 2
+
+
+CSS Flex
+========
+.flex-container{
+    display: flex
+}
+
+.card{
+    background: 
+    border: 30px solid white;
+    height: 100px
+    flex: 1
+}
+
+.first{
+    flex: 2
+}
+
+.second{
+    flex: 0.5
+}
+
+Bootstrap Frameworks
+====
+Other people's Work
+Defined classes in CSS
+12 
+
+@media (max-width: 300px) {
+        div{
+            background-color: red;
+            height: 200px;
+            width: 200px;
+        }
+    }
+
+    @media (min-width: 300px) {
+        div{
+            background-color: red;
+            height: 200px;
+            width: 200px;
+        }
+    }
+
+@media screen(orientation: landscape) {
+        div{
+            background-color: red;
+            height: 200px;
+            width: 200px;
+        }
+    }
