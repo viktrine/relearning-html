@@ -358,3 +358,8 @@ Defined classes in CSS
 Flexbox
 =========
 Web layout inspired by magazinejW
+float for images not layouts
+
+div - block
+span - inline
+inline-flex
