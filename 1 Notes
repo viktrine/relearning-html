@@ -363,3 +363,39 @@ float for images not layouts
 div - block
 span - inline
 inline-flex
+flex-direction
+flex-basis: 100px
+
+Descendant / parent combinator 
+
+
+Flexible Layout
+===============
+https://appbrewery.github.io/flex-layout/
+
+order: 0
+flex-warp: <- on container
+justify-content - on parent
+align-items: flex-start - container, height 70vh - viewport height
+align-self - child
+https://css-tricks.com/old-flexbox-and-new-flexbox/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+align-content: when wrap 
+
+Assignment: https://appbrewery.github.io/flexboxfroggy/
+
+
+Flex Sizing
+===========
+Size
+Shringking 
+Growing 
+
+Cpntent width < width < flex-basis < max/min width
+display: flex
+width; 
+flex-basis initial start value
+flex-grow
+flex-Shrink
+
+flex: grow shtink basis
