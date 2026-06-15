@@ -412,3 +412,23 @@ Grid: Align content in 2d
 We can use both flex + Grid 
 https://appbrewery.github.io/grid-vs-flexbox/
 
+
+Grid Sizinf
+grid-template-rows: 1fr 1fr 
+grid-template-rows: 100px 100px
+grid-template-rows:100px 100px / 100px 100px - rows then colums
+
+grid-template-rows: 100px auto
+
+Auto on a row fits content , on column tries to go to 100%
+https://appbrewery.github.io/grid-sizing 
+grid-template-rows: 100px minmax(400px, 800px)
+grid-template-rows: repeat(22, 100px)
+
+2*3
+grid-template-rows: 100px 100px;
+grid-template-colums: 100px 100px;
+grid-auto-column/row
+
+Grid Item Placement
+======================
