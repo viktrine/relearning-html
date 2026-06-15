@@ -145,6 +145,9 @@ rem is the recommended
 
 font-familiy: fonts.google.com
 text-align: 
+font-size: xx-large
+font-weight: normal, bold, bolder, lighter, number 100 - 900
+
 
 Box model
 ===============
@@ -376,7 +379,7 @@ https://appbrewery.github.io/flex-layout/
 order: 0
 flex-warp: <- on container
 justify-content - on parent
-align-items: flex-start - container, height 70vh - viewport height
+align-items: flex-start - container, height 70vh - viewport height - along the cross axis, flex-end, flex-end, centre, strech
 align-self - child
 https://css-tricks.com/old-flexbox-and-new-flexbox/
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
@@ -398,4 +401,14 @@ flex-basis initial start value
 flex-grow
 flex-Shrink
 
-flex: grow shtink basis
+flex: grow shr`ink basis
+
+
+Grid
+=====
+Flexbox: Align items along 1 dimensiotional, 1D 
+Grid: Align content in 2d
+
+We can use both flex + Grid 
+https://appbrewery.github.io/grid-vs-flexbox/
+
